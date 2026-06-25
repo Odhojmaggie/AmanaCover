@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d36afaf-cc4a-40b4-bce5-4b7c6401a87f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="39" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="2.2385251926271898E-48" />
+      <entry key="MS500" value="2.951157563446144E-10" />
+      <entry key="S2" value="0.004144747700920298" />
+      <entry key="S5" value="0.11142925829168382" />
+      <entry key="S10" value="0.33381021298289204" />
+      <entry key="S30" value="0.6936917666775974" />
+      <entry key="S60" value="0.8328827614362823" />
+      <entry key="M2" value="0.9146913855628458" />
+      <entry key="M5" value="1.1725359215367417" />
+      <entry key="M10" value="1.990457892838702" />
+      <entry key="M15" value="2.7164001632615777" />
+      <entry key="M30" value="4.627351478156011" />
+      <entry key="H1" value="11.869847135000008" />
+      <entry key="H2" value="30.972539366315708" />
+      <entry key="H4" value="56.232430874313415" />
+      <entry key="D1" value="96.55836612908259" />
+      <entry key="W1" value="106.27851834984232" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0000000000049354" />
+      <entry key="MS500" value="1.0054785834352857" />
+      <entry key="S2" value="1.291044320470165" />
+      <entry key="S5" value="1.8804027548515223" />
+      <entry key="S10" value="2.5156801753558446" />
+      <entry key="S30" value="3.350680047439318" />
+      <entry key="S60" value="3.6501712727016677" />
+      <entry key="M2" value="3.8182397430746797" />
+      <entry key="M5" value="3.925576109663611" />
+      <entry key="M10" value="3.962507359318565" />
+      <entry key="M15" value="3.9756977488909997" />
+      <entry key="M30" value="4.051873924069515" />
+      <entry key="H1" value="4.730244158288642" />
+      <entry key="H2" value="6.655186301153752" />
+      <entry key="H4" value="9.128899911016317" />
+      <entry key="D1" value="12.94112678453811" />
+      <entry key="W1" value="13.84122804557115" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="6.741815464122708E-12" />
+      <entry key="MS500" value="0.00583124757398509" />
+      <entry key="S2" value="0.30825165221459844" />
+      <entry key="S5" value="1.1358512969549892" />
+      <entry key="S10" value="2.2193473938024826" />
+      <entry key="S30" value="3.7579465865800032" />
+      <entry key="S60" value="4.327142763869936" />
+      <entry key="M2" value="4.651480510277338" />
+      <entry key="M5" value="5.063994163468476" />
+      <entry key="M10" value="5.934474701036325" />
+      <entry key="M15" value="6.678966620638889" />
+      <entry key="M30" value="8.671518010203252" />
+      <entry key="H1" value="16.593679260895712" />
+      <entry key="H2" value="37.621145523197704" />
+      <entry key="H4" value="65.35587632580638" />
+      <entry key="D1" value="109.49802436031733" />
+      <entry key="W1" value="120.1195176457088" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3FGPvjiecmvX6UVYQrnq64xfVrm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AmanaCoverApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Margaret.Atieno/Downloads/AmanaCover&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="AmanaCoverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="AmanaCover" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.AmanaCover.AmanaCoverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d36afaf-cc4a-40b4-bce5-4b7c6401a87f" name="Changes" comment="" />
+      <created>1781698665141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781698665141</updated>
+      <workItem from="1781698666325" duration="2437000" />
+      <workItem from="1781762529366" duration="15156000" />
+      <workItem from="1781848238560" duration="9885000" />
+      <workItem from="1782108976567" duration="9519000" />
+      <workItem from="1782290775920" duration="6032000" />
+      <workItem from="1782376055281" duration="1141000" />
+      <workItem from="1782382202824" duration="416000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
