@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d36afaf-cc4a-40b4-bce5-4b7c6401a87f" name="Changes" comment="API with POST and GET">
+      <change beforePath="$PROJECT_DIR$/AmanaCover/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="37" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Odhojmaggie"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Odhojmaggie/AmanaCover",
+    "accountId": "e2cee4e0-50fa-4cc9-8b01-3588af232a21"
+  }
+}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.5863465799754208" />
+      <entry key="MS500" value="3.3970420549225726" />
+      <entry key="S2" value="5.48268487872876" />
+      <entry key="S5" value="6.309650578070554" />
+      <entry key="S10" value="6.640859141869459" />
+      <entry key="S30" value="7.418239503078126" />
+      <entry key="S60" value="9.342271840753316" />
+      <entry key="M2" value="12.719428200111315" />
+      <entry key="M5" value="19.622564920629774" />
+      <entry key="M10" value="26.7720127277238" />
+      <entry key="M15" value="30.86750385061027" />
+      <entry key="M30" value="37.058638169032406" />
+      <entry key="H1" value="44.77019084476964" />
+      <entry key="H2" value="61.31054501615456" />
+      <entry key="H4" value="89.04421846652336" />
+      <entry key="D1" value="146.8825624234082" />
+      <entry key="W1" value="163.0522287317703" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="2.28511309772528E-264" />
+      <entry key="S30" value="3.2450175526240245E-88" />
+      <entry key="S60" value="3.5921568210955224E-44" />
+      <entry key="M2" value="3.787775376560314E-22" />
+      <entry key="M5" value="6.201715095321741E-9" />
+      <entry key="M10" value="1.5749772551288798E-4" />
+      <entry key="M15" value="0.00463037498163999" />
+      <entry key="M30" value="0.1382793486371358" />
+      <entry key="H1" value="0.8738447045936292" />
+      <entry key="H2" value="2.860457949353854" />
+      <entry key="H4" value="5.984889284130935" />
+      <entry key="D1" value="12.06178837723043" />
+      <entry key="W1" value="13.702785341675018" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.5071648451603874" />
+      <entry key="MS500" value="3.3107273551508816" />
+      <entry key="S2" value="5.446889668796366" />
+      <entry key="S5" value="6.2936227283114174" />
+      <entry key="S10" value="6.63252631739371" />
+      <entry key="S30" value="7.415144568556271" />
+      <entry key="S60" value="9.340296173744939" />
+      <entry key="M2" value="12.718068609910922" />
+      <entry key="M5" value="19.62172907881727" />
+      <entry key="M10" value="26.77160337217884" />
+      <entry key="M15" value="30.87168430125595" />
+      <entry key="M30" value="37.19638571508669" />
+      <entry key="H1" value="45.64267629606306" />
+      <entry key="H2" value="64.16806184448754" />
+      <entry key="H4" value="95.02546444705749" />
+      <entry key="D1" value="158.9429686584256" />
+      <entry key="W1" value="176.7547856376287" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3FGPvjiecmvX6UVYQrnq64xfVrm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.AmanaCoverApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Margaret.Atieno/Downloads/AmanaCover",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Margaret.Atieno\Downloads\AmanaCover" />
+      <recent name="C:\Users\Margaret.Atieno\Downloads\AmanaCover\AmanaCover" />
+      <recent name="C:\Users\Margaret.Atieno\Downloads\AmanaCover\AmanaCover\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AmanaCoverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="AmanaCover" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.AmanaCover.AmanaCoverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d36afaf-cc4a-40b4-bce5-4b7c6401a87f" name="Changes" comment="" />
+      <created>1781698665141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781698665141</updated>
+      <workItem from="1781698666325" duration="2437000" />
+      <workItem from="1781762529366" duration="15156000" />
+      <workItem from="1781848238560" duration="9885000" />
+      <workItem from="1782108976567" duration="9519000" />
+      <workItem from="1782290775920" duration="6032000" />
+      <workItem from="1782376055281" duration="1141000" />
+      <workItem from="1782382202824" duration="416000" />
+      <workItem from="1782383411464" duration="5455000" />
+    </task>
+    <task id="LOCAL-00001" summary="API with POST and GET">
+      <option name="closed" value="true" />
+      <created>1782383555303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782383555303</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="API with POST and GET" />
+    <option name="LAST_COMMIT_MESSAGE" value="API with POST and GET" />
+  </component>
+</project>
