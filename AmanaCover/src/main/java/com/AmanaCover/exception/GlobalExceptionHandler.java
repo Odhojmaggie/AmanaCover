@@ -7,12 +7,16 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @ControllerAdvice
+
 public class GlobalExceptionHandler {
 
     @ExceptionHandler(ResourceNotFoundException.class)
-    public ResponseEntity<?> handleNotFound(ResourceNotFoundException ex) {
+    public ResponseEntity<?> handleResourceNotFound(ResourceNotFoundException ex) {
+
         return ResponseEntity.status(HttpStatus.NOT_FOUND)
-                .body(Map.of("error", ex.getMessage()));
+                .body(Map.of(
+                        "error", ex.getMessage()
+                ));
     }
 
     @ExceptionHandler(Exception.class)

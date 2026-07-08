@@ -13,16 +13,16 @@ import java.math.BigDecimal;
 @Builder
 public class PolicyRequestDTO {
 
-    @NotBlank
+    @NotBlank(message="Policy number is required")
     private String policyNumber;
 
-    @NotBlank
+    @NotBlank(message="insured name is required")
     private String insuredName;
 
-    @NotNull
+    @NotNull(message="Premium is required")
     @DecimalMin("0.0")
     private BigDecimal premium;
 
-    @NotNull
+    @NotNull(message="Status is required")
     private PolicyStatus status;
 }
