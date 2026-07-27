@@ -5,22 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d36afaf-cc4a-40b4-bce5-4b7c6401a87f" name="Changes" comment="API with POST and GET">
+      <change afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/dto/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/dto/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/dto/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/exception/UserAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/security/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96bd2a5b-fdee-46fb-81a5-a0a6bba1372e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96bd2a5b-fdee-46fb-81a5-a0a6bba1372e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/controller/PolicyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/controller/PolicyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/dto/PolicyRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/dto/PolicyRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/entity/Policy.java" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/entity/Policy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/enums/PolicyStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/enums/PolicyStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmanaCover/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/repository/PolicyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/repository/PolicyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/service/PolicyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/service/PolicyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmanaCover/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmanaCover/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmanaCover/target/classes/com/AmanaCover/controller/PolicyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/target/classes/com/AmanaCover/controller/PolicyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmanaCover/target/classes/com/AmanaCover/dto/PolicyRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/target/classes/com/AmanaCover/dto/PolicyRequestDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmanaCover/target/classes/com/AmanaCover/entity/Policy.class" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/target/classes/com/AmanaCover/entity/Policy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmanaCover/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmanaCover/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmanaCover/target/classes/com/AmanaCover/exception/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/target/classes/com/AmanaCover/exception/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmanaCover/target/classes/com/AmanaCover/service/PolicyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/target/classes/com/AmanaCover/service/PolicyService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +32,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="38" />
+    <option name="cachedIndexableFilesCount" value="27" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,23 +73,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000010816" />
-      <entry key="MS500" value="1.004045390225002" />
-      <entry key="S2" value="1.2864952427386895" />
-      <entry key="S5" value="1.8467681060011292" />
-      <entry key="S10" value="2.446621839552277" />
-      <entry key="S30" value="4.266907452686562" />
-      <entry key="S60" value="5.814020617722116" />
-      <entry key="M2" value="7.107929090541711" />
-      <entry key="M5" value="8.218597291373477" />
-      <entry key="M10" value="9.00164902753929" />
-      <entry key="M15" value="9.539211553850837" />
-      <entry key="M30" value="10.467976313658035" />
-      <entry key="H1" value="12.46901937966993" />
-      <entry key="H2" value="23.634024333715082" />
-      <entry key="H4" value="57.97396271992774" />
-      <entry key="D1" value="196.90632836338293" />
-      <entry key="W1" value="254.5270203621581" />
+      <entry key="MS100" value="1.288244204533451" />
+      <entry key="MS500" value="2.8766927900473203" />
+      <entry key="S2" value="4.236039788593626" />
+      <entry key="S5" value="4.66719491097502" />
+      <entry key="S10" value="4.828614724712688" />
+      <entry key="S30" value="4.941719071001739" />
+      <entry key="S60" value="4.970712540785117" />
+      <entry key="M2" value="4.985319297775572" />
+      <entry key="M5" value="4.994118816846024" />
+      <entry key="M10" value="4.997059423847322" />
+      <entry key="M15" value="4.998271630865229" />
+      <entry key="M30" value="5.073926204376857" />
+      <entry key="H1" value="6.984062349086172" />
+      <entry key="H2" value="17.613203736847307" />
+      <entry key="H4" value="48.95677338357087" />
+      <entry key="D1" value="215.22425412962508" />
+      <entry key="W1" value="299.381269791612" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -93,37 +97,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="4.759487154964024E-177" />
-      <entry key="S60" value="6.898903648380682E-89" />
-      <entry key="M2" value="8.305963910605826E-45" />
-      <entry key="M5" value="2.3322083532411884E-18" />
-      <entry key="M10" value="1.5350141137067E-9" />
-      <entry key="M15" value="1.3674650746939974E-6" />
-      <entry key="M30" value="0.0014082356790255971" />
-      <entry key="H1" value="0.059898909214048106" />
-      <entry key="H2" value="0.560835585957176" />
-      <entry key="H4" value="2.5044016919612533" />
-      <entry key="D1" value="12.532739596706106" />
-      <entry key="W1" value="17.08032612134672" />
+      <entry key="S30" value="1.9324309907445694E-180" />
+      <entry key="S60" value="2.313481696346503E-90" />
+      <entry key="M2" value="2.6088418447711303E-45" />
+      <entry key="M5" value="2.830497905397619E-18" />
+      <entry key="M10" value="2.9129322314598733E-9" />
+      <entry key="M15" value="2.9414299851481064E-6" />
+      <entry key="M30" value="0.002971775616848306" />
+      <entry key="H1" value="0.09623776869400373" />
+      <entry key="H2" value="0.6304250809379618" />
+      <entry key="H4" value="2.3118140753740164" />
+      <entry key="D1" value="13.436855041290997" />
+      <entry key="W1" value="19.668672387483927" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.670949786930963E-9" />
-      <entry key="MS500" value="0.019315817858294587" />
-      <entry key="S2" value="0.45836516181968373" />
-      <entry key="S5" value="1.2111243656909416" />
-      <entry key="S10" value="1.972712842554109" />
-      <entry key="S30" value="3.950392638967888" />
-      <entry key="S60" value="5.588066802501659" />
-      <entry key="M2" value="6.966528382743248" />
-      <entry key="M5" value="8.152464514617776" />
-      <entry key="M10" value="8.965763462201627" />
-      <entry key="M15" value="9.514152158024109" />
-      <entry key="M30" value="10.455921174029545" />
-      <entry key="H1" value="12.521276663546805" />
-      <entry key="H2" value="24.189274342454507" />
-      <entry key="H4" value="60.47338762403746" />
-      <entry key="D1" value="209.436773603975" />
-      <entry key="W1" value="271.60692872516074" />
+      <entry key="MS100" value="1.2423101609861846" />
+      <entry key="MS500" value="2.802418578809848" />
+      <entry key="S2" value="4.172634830364903" />
+      <entry key="S5" value="4.634086343586471" />
+      <entry key="S10" value="4.810503448332194" />
+      <entry key="S30" value="4.935307453986943" />
+      <entry key="S60" value="4.9674580261677965" />
+      <entry key="M2" value="4.983679717926684" />
+      <entry key="M5" value="4.993460008625993" />
+      <entry key="M10" value="4.99672952230582" />
+      <entry key="M15" value="4.9980542430871395" />
+      <entry key="M30" value="5.076741876738177" />
+      <entry key="H1" value="7.07962697125513" />
+      <entry key="H2" value="18.241632966451217" />
+      <entry key="H4" value="51.265351883747705" />
+      <entry key="D1" value="228.6587405258902" />
+      <entry key="W1" value="319.0494711211357" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -148,6 +152,7 @@
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;Spring Boot.AmanaCoverApplication.executor&quot;: &quot;Run&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
@@ -161,6 +166,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -185,8 +191,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
       </set>
     </attachedChunks>
   </component>
@@ -214,6 +220,22 @@
       <workItem from="1783065114320" duration="1065000" />
       <workItem from="1783066831253" duration="1579000" />
       <workItem from="1783311948020" duration="11859000" />
+      <workItem from="1783489016979" duration="3912000" />
+      <workItem from="1783577833343" duration="4675000" />
+      <workItem from="1783658707753" duration="11034000" />
+      <workItem from="1783857263303" duration="17000" />
+      <workItem from="1783923906018" duration="2826000" />
+      <workItem from="1784097016388" duration="2432000" />
+      <workItem from="1784190475807" duration="2954000" />
+      <workItem from="1784271164818" duration="4254000" />
+      <workItem from="1784281791298" duration="3863000" />
+      <workItem from="1784526519799" duration="5147000" />
+      <workItem from="1784617203592" duration="5456000" />
+      <workItem from="1784697554266" duration="11587000" />
+      <workItem from="1784782651669" duration="8023000" />
+      <workItem from="1784876317734" duration="1111000" />
+      <workItem from="1784879055925" duration="5368000" />
+      <workItem from="1785128373873" duration="17428000" />
     </task>
     <task id="LOCAL-00001" summary="API with POST and GET">
       <option name="closed" value="true" />
@@ -232,16 +254,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="API with POST and GET" />
     <option name="LAST_COMMIT_MESSAGE" value="API with POST and GET" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/controller/PolicyController.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
