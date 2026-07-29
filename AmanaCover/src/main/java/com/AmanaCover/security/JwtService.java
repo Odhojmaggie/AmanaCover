@@ -2,12 +2,11 @@ package com.AmanaCover.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import java.security.Key;
+import javax.crypto.SecretKey;
 import java.util.Date;
 
 @Service
@@ -34,26 +33,34 @@ public class JwtService {
                 .compact();
     }
 
-    private Key getSigningKey() {
-
-        return Keys.hmacShaKeyFor(
-                secretKey.getBytes()
-        );
-    }
-
     public String extractUsername(
             String token
     ) {
 
         Claims claims = Jwts.parser()
-                .verifyWith(
-                        (javax.crypto.SecretKey)
-                                getSigningKey()
-                )
+                .verifyWith(getSigningKey())
                 .build()
                 .parseSignedClaims(token)
                 .getPayload();
 
         return claims.getSubject();
+    }
+
+    public boolean isTokenValid(
+            String token,
+            String email
+    ) {
+
+        String extractedEmail =
+                extractUsername(token);
+
+        return extractedEmail.equals(email);
+    }
+
+    private SecretKey getSigningKey() {
+
+        return Keys.hmacShaKeyFor(
+                secretKey.getBytes()
+        );
     }
 }

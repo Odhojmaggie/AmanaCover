@@ -1,3 +1,19 @@
+/**
+ * Global exception handler for the application.
+ *
+ * <p>This class centralizes exception handling across all controllers
+ * and ensures consistent API error responses.</p>
+ *
+ * <p>Handled exceptions include:</p>
+ * <ul>
+ *     <li>ResourceNotFoundException</li>
+ *     <li>Validation exceptions</li>
+ *     <li>Generic application exceptions</li>
+ * </ul>
+ *
+ * @author Margaret Atieno
+ * @since 1.0
+ */
 
 package com.AmanaCover.exception;
 
