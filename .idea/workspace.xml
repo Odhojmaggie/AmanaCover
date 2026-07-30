@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d36afaf-cc4a-40b4-bce5-4b7c6401a87f" name="Changes" comment="API with POST and GET">
-      <change afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/security/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/service/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/controller/InsuranceProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/dto/ProductRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/dto/ProductResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/entity/InsuranceProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/enums/ProductCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/repository/InsuranceProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/service/InsuranceProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/security/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/security/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/src/main/java/com/AmanaCover/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmanaCover/target/classes/com/AmanaCover/exception/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/target/classes/com/AmanaCover/exception/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmanaCover/target/classes/com/AmanaCover/security/JwtService.class" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/target/classes/com/AmanaCover/security/JwtService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmanaCover/target/classes/com/AmanaCover/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/target/classes/com/AmanaCover/security/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmanaCover/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmanaCover/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AmanaCover/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="32" />
+    <option name="cachedIndexableFilesCount" value="33" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,23 +63,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000233512468" />
-      <entry key="MS500" value="1.0571750275967435" />
-      <entry key="S2" value="2.7276670545407384" />
-      <entry key="S5" value="5.417524613072411" />
-      <entry key="S10" value="9.678520135783678" />
-      <entry key="S30" value="30.830563450443407" />
-      <entry key="S60" value="52.40353546086065" />
-      <entry key="M2" value="76.5497684212724" />
-      <entry key="M5" value="113.67266396016602" />
-      <entry key="M10" value="150.9190571240574" />
-      <entry key="M15" value="176.68212205780432" />
-      <entry key="M30" value="224.62491274377996" />
-      <entry key="H1" value="268.83990205679237" />
-      <entry key="H2" value="307.28919628444476" />
-      <entry key="H4" value="353.53805601722723" />
-      <entry key="D1" value="538.5332561046008" />
-      <entry key="W1" value="631.4334287312366" />
+      <entry key="MS100" value="1.3843088992822183" />
+      <entry key="MS500" value="2.735574068374337" />
+      <entry key="S2" value="4.802253544167494" />
+      <entry key="S5" value="5.921182860937948" />
+      <entry key="S10" value="6.41925003978936" />
+      <entry key="S30" value="6.7963181013673655" />
+      <entry key="S60" value="6.896834929574363" />
+      <entry key="M2" value="6.9480816057531865" />
+      <entry key="M5" value="6.979151409641816" />
+      <entry key="M10" value="6.989574073679021" />
+      <entry key="M15" value="6.996333600152144" />
+      <entry key="M30" value="7.987190092793622" />
+      <entry key="H1" value="25.237491718899456" />
+      <entry key="H2" value="88.68444782647845" />
+      <entry key="H4" value="192.52600649446296" />
+      <entry key="D1" value="500.69150188226644" />
+      <entry key="W1" value="642.953229077656" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -86,37 +87,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="2.9318884486797705E-222" />
-      <entry key="S60" value="2.849625524490159E-111" />
-      <entry key="M2" value="9.156059662157026E-56" />
-      <entry key="M5" value="1.861946434090217E-22" />
-      <entry key="M10" value="2.3625584044485043E-11" />
-      <entry key="M15" value="1.1873897536850396E-7" />
-      <entry key="M30" value="5.970812121854685E-4" />
-      <entry key="H1" value="0.043137427320621285" />
-      <entry key="H2" value="0.4220732520401311" />
-      <entry key="H4" value="1.8916033629158546" />
-      <entry key="D1" value="12.995026244604933" />
-      <entry key="W1" value="19.574951447429505" />
+      <entry key="S30" value="3.119053988992334E-132" />
+      <entry key="S60" value="1.766084366329178E-66" />
+      <entry key="M2" value="1.3289410695471705E-33" />
+      <entry key="M5" value="7.069721229779384E-14" />
+      <entry key="M10" value="2.658894738395415E-7" />
+      <entry key="M15" value="4.134923230919485E-5" />
+      <entry key="M30" value="0.006432792775207498" />
+      <entry key="H1" value="0.08295604690442289" />
+      <entry key="H2" value="0.3900677981695873" />
+      <entry key="H4" value="1.48407560944755" />
+      <entry key="D1" value="12.489922547025579" />
+      <entry key="W1" value="20.242601397801945" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.02915728111786705" />
-      <entry key="MS500" value="0.5134899729885428" />
-      <entry key="S2" value="2.4134669163534794" />
-      <entry key="S5" value="5.239452824686883" />
-      <entry key="S10" value="9.575942502606631" />
-      <entry key="S30" value="30.790288285158766" />
-      <entry key="S60" value="52.38081631627633" />
-      <entry key="M2" value="76.5369241414446" />
-      <entry key="M5" value="113.66668951209242" />
-      <entry key="M10" value="150.9156633705122" />
-      <entry key="M15" value="176.67961789767202" />
-      <entry key="M30" value="224.6239221028837" />
-      <entry key="H1" value="268.8817768341006" />
-      <entry key="H2" value="307.70937871924536" />
-      <entry key="H4" value="355.42671075739946" />
-      <entry key="D1" value="551.52593750732" />
-      <entry key="W1" value="651.0079035356272" />
+      <entry key="MS100" value="1.333437652750391" />
+      <entry key="MS500" value="2.6050714697917647" />
+      <entry key="S2" value="4.723124031719468" />
+      <entry key="S5" value="5.882168160556362" />
+      <entry key="S10" value="6.398247926081661" />
+      <entry key="S30" value="6.7889544533429165" />
+      <entry key="S60" value="6.893105633768823" />
+      <entry key="M2" value="6.946204924751236" />
+      <entry key="M5" value="6.9783978278361465" />
+      <entry key="M10" value="6.989197058871296" />
+      <entry key="M15" value="6.9961229820761615" />
+      <entry key="M30" value="7.993467029313308" />
+      <entry key="H1" value="25.320156419506453" />
+      <entry key="H2" value="89.07374380539156" />
+      <entry key="H4" value="194.00833619106646" />
+      <entry key="D1" value="513.1792609438222" />
+      <entry key="W1" value="663.1953503033498" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -226,7 +227,8 @@
       <workItem from="1784879055925" duration="5368000" />
       <workItem from="1785128373873" duration="18317000" />
       <workItem from="1785216614269" duration="16260000" />
-      <workItem from="1785313206503" duration="5621000" />
+      <workItem from="1785313206503" duration="6898000" />
+      <workItem from="1785386435031" duration="9942000" />
     </task>
     <task id="LOCAL-00001" summary="API with POST and GET">
       <option name="closed" value="true" />
